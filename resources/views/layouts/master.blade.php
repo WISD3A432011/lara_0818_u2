@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/10/26
- * Time: 下午 05:32
- */
+<html>
+<head>
+    <title>@yield('title') | MyBlog</title>
+</head>
+<body>
+<div class="container">
+    @yield('content')
+</div>
+</body>
+</html>
